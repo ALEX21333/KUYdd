@@ -6,7 +6,7 @@ import requests
 from interactions import *
 from keepAlive import keep_alive
 
-token = os.environ['ICE_SHOP'] 
+token = os.environ['token'] 
 
 ICE_SHOP = interactions.Client(token=token, intents=Intents.ALL) # ห้ามแก้เด็ดขาด !!!
 
